@@ -1,17 +1,17 @@
 {
-  "name": "react-checkbox-duet",
+  "name": "mff-checkbox",
   "version": "1.0.0",
   "description": "react checkbox component for multi-selecting or single one",
   "main": "lib/index.js",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src",
-    "qqprepare": "babel src -d lib",
+    "prepare": "babel src -d lib",
     "buildExample": "npm run prepublish && NODE_ENV=production webpack --config webpack.config.bundleExample.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://git@github.com:WendellLiu/react-checkbox-duet.git"
+    "url": "https://git@github.com:Mi-FanFan/mff-checkbox.git"
   },
   "keywords": [
     "react",
@@ -19,12 +19,12 @@
     "checkbox",
     "mff"
   ],
-  "author": "WendellLiu <cuk.bas@gmail.com> (http://github.com/WendellLiu)",
+  "author": "Mi-FanFan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WendellLiu/react-checkbox-duet/issues"
+    "url": "https://github.com/Mi-FanFan/mff-checkbox/issues"
   },
-  "homepage": "https://github.com/WendellLiu/react-checkbox-duet",
+  "homepage": "https://github.com/Mi-FanFan/mff-checkbox",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^4.1.3",
